@@ -1,7 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
   background-color: #fff;
-  color: #2e2f42;
 }
 
 ul {
@@ -18,6 +17,7 @@ a {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
   color: #2e2f42;
 }
 
@@ -59,7 +59,7 @@ a {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: #4d5ae5;
 }
 
 .header-webstudio {
@@ -69,7 +69,7 @@ a {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 
 .heder-list {
@@ -84,6 +84,7 @@ a {
 }
 
 .contacts {
+  font-style: normal;
 }
 
 .contacts-list {
@@ -126,6 +127,7 @@ a {
   letter-spacing: 0.04em;
   color: #fff;
   cursor: pointer;
+  background-color: #4d5ae5;
 }
 
 /* ---------------------------------- */
@@ -248,7 +250,7 @@ a {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #f4f4fd;
+  color: #4d5ae5;
 }
 
 .footer-webstudio {
@@ -258,7 +260,7 @@ a {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: #f4f4fd;
 }
 
 .footer-text {
