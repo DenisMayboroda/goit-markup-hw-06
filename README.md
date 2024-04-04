@@ -1,1 +1,2 @@
-# goit-markup-hw-01
+# The law of intuition: 
+Happiness smiles on those who try...
