@@ -439,7 +439,6 @@
         </div>
       </section>
     </main>
-
     <footer class="footer">
       <div class="container footer-soc-container">
         <div class="footer-container">
@@ -487,7 +486,7 @@
         <div class="footer-subcribe">
           <p class="subcribe-text">Subscribe</p>
           <form class="form-subcribe">
-            <label>
+            <label class="label-text">
               <input
                 type="email"
                 name="subcribe-email"
@@ -495,11 +494,10 @@
                 placeholder="E-mail"
             /></label>
             <button type="submit" class="subcribe-btn">Subscribe
-              <svg class="subckribe-btn-svg" width="24" height="20">
+              <svg class="subckribe-btn-svg" width="24" height="24">
                 <use href="./images/icons.svg#icon-send"></use>
               </svg>
             </button>
-          </div>
           </form>
         </div>
     </footer>
@@ -516,13 +514,14 @@
             <label for="user-name" class="model-label">Name</label>
             <div class="form-line">
               <input
+                name="user-name"
                 type="text"
                 class="model-input"
                 placeholder=""
                 required
                 id="user-name"
               />
-              <svg class="model-svg-form" width="18px" height="24px">
+              <svg class="model-svg-form" width="18" height="24">
                 <use href="./images/icons.svg#icon-person"></use>
               </svg>
             </div>
@@ -531,13 +530,14 @@
             <label for="user-tel" class="model-label">Phone</label>
             <div class="form-line">
               <input
+                name="user-tel"
                 type="tel"
                 class="model-input"
                 placeholder=""
                 required
                 id="user-tel"
               />
-              <svg class="model-svg-form" width="18px" height="24px">
+              <svg class="model-svg-form" width="18" height="24">
                 <use href="./images/icons.svg#icon-phone"></use>
               </svg>
             </div>
@@ -546,13 +546,14 @@
             <label for="user-email" class="model-label">Email</label>
             <div class="form-line">
               <input
+                name="user-email"
                 type="email"
                 class="model-input"
                 placeholder=""
                 required
                 id="user-email"
               />
-              <svg class="model-svg-form" width="18px" height="24px">
+              <svg class="model-svg-form" width="18" height="24">
                 <use href="./images/icons.svg#icon-email"></use>
               </svg>
             </div>
@@ -566,15 +567,15 @@
               class="form-text"
             ></textarea>
           </div>
-          <div class="form-input">
+          <div class="form-input-checkbox">
             <input
               type="checkbox"
-              name="policy"
-              id="policy"
+              name="user-privacy"
+              id="user-privacy"
               class="policy-form visually-hidden"
             />
-            <label for="policy" class="check-text"
-              ><span>
+            <label for="user-privacy" class="check-text"
+              ><span class="span-yes">
                 <svg class="check-svg-yes" width="10" height="8">
                   <use href="./images/icons.svg#icon-yes"></use></svg></span
               >I accept the terms and conditions of the
