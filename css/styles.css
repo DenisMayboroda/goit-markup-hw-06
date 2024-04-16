@@ -702,8 +702,6 @@ img {
   position: relative;
 }
 
-
-
 .model-label {
   display: block;
   margin-bottom: 4px;
@@ -785,7 +783,6 @@ img {
 }
 
 .span-yes {
-
 }
 
 .p-policy {
@@ -802,7 +799,6 @@ img {
   border-radius: 2px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   margin-right: 8px;
-  display: flex;
   display: inline-flex;
   align-items: center;
   justify-content: center;
